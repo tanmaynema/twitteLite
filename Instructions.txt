@@ -1,0 +1,36 @@
+Name: Tanmay Nema
+AndrewID: tnema
+
+Execution Instructions for Homework Assignment 6 - simplified Twitter
+
+- To compile the program, type "javac twitter.java" in terminal window
+- To run the program, type "java twitter" in the terminal window
+
+- A CLI is created to interact with the program, which accepts integer input form the user.
+    1. Post a tweet
+    2. Get News Feed
+    3. Create a User
+    4. Follow
+    5. Unfollow
+    0. Exit
+
+- The program promts the user to select the desired action by entering integer input.
+- The program captures wrong inputs and throws error message, prompting the user to run the program again.
+
+- When posting a tweet: the program asks for unique userId and unique tweetId and displays a success message if everything is in order
+- The program throws an error if wrong input is enters, or if the userId doesn't exist or if the tweetId already exists, prompting the user to run the program again.
+
+- When getting News Feed: the program asks for the userId and display a list of top 10 tweetIds ordered from most recent to least.
+- The program throws an error if wrong input is enters, or if the userId doesn't exist, prompting the user to run the program again.
+
+- When creating a user: the program asks for a unique userId and displays a success message if everything is in order.
+- The program throws an error message if the userId already exists, prompting the user to run the program again.
+
+- When following a user: the program asks for the userId of the follower and the userId of the followee and displays a success message if everything is in order.
+- The program throws an error message if either of the userId doesn't exists or when they are the same, prompting the user to run the program again.
+
+- When unfollowing a user: the program asks for the userId of the follower and the userId of the followee and displays a success message if everything is in order.
+- The program throws an error message if either of the userId doesn't exists or when they are the same, prompting the user to run the program again.
+
+- If the user directory is empty, selecting any actions prompts the user to first create a new user.
+- Enter 0 to exit the program.
