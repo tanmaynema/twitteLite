@@ -1,2 +1,2 @@
-# twitteLite
+# twitterLite
 DSA Final Assignment
