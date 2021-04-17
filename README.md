@@ -1,2 +1,2 @@
 # twitterLite
-DSA Final Assignment
+Data Structures and Algorithms - Final Assignment
